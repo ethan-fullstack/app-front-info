@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Make private repo docker, using credentials</p>
+        <p>UPLOAD AND DEPLOY!!!</p>
         <a
           className="App-link"
           href="https://allianzsoft.github.io/"
