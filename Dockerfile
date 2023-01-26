@@ -7,4 +7,4 @@ RUN pwd
 RUN ls
 # ENV PORT=9001
 # EXPOSE 9001
-# CMD [ "node", "." ]
+CMD [ "npm", "start" ]
