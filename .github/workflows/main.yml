@@ -44,4 +44,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: sudo make -C /home/${{ secrets.USERNAME }}/deployments/front
+          script: sudo docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} && sudo make -C /home/${{ secrets.USERNAME }}/deployments/front && sudo docker logout
